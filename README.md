@@ -8,8 +8,9 @@
 
 #### Getting Started:
 1. Setup OCI SDK and CLI config file, OCI API public and private keys on the compute instance, and register the OCI API public key with your OCI user account. Instructions are available [here](https://oracle-cloud-infrastructure-python-sdk.readthedocs.io/en/latest/installation.html#install).
-2. Install this project by running the following command from within the home directory of your compute instance:
+2. Install this project to the home directory of your compute instance:
 ```
+sudo yum -y install git
 git clone https://github.com/scacela/oci-storage-alerts.git ~/oci-storage-alerts
 ```
 3. Edit your configuration variables by editing their assigned values in <b>~/oci-storage-alerts/config.py</b>. Change the value assigned to variable <b>enable_alerts</b> to <b>True</b> when ready to enable the alerts.
