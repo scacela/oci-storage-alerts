@@ -22,8 +22,10 @@ Open the cron table in edit mode with the following command:
 ```
 crontab -e
 ```
-And paste the schedule command into it, shown in the code snippet below.\
+And paste the scheduled command into it, shown in the code snippet below.\
+\
 To customize the frequency with which the storage usage of the user-defined volume is measured, refer to [this site](https://crontab.guru/) as a reference for cron expressions.\
+\
 You will also be able to find the output of the most recent execution of the program in <b>~/oci-storage-alerts/out.log</b>.
 ```
 */30 * * * * python3 ~/oci-storage-alerts/main.py &> ~/oci-storage-alerts/out.log
