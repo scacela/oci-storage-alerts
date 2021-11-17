@@ -1,6 +1,6 @@
 # oci-storage-alerts
 
-## Get alerted when a user-defined volume has reached or exceeded a user-defined limit.
+## Get alerted when a user-defined volume has reached or exceeded a user-defined storage threshold.
 
 #### Prerequisites:
 * In the [Notifications](https://docs.oracle.com/en-us/iaas/Content/Notification/home.htm) service, a Topic is set up with at least one Subscription, and your OCI user has at least [use](https://docs.oracle.com/en-us/iaas/Content/Identity/Concepts/policies.htm)-level access to the service.
