@@ -9,6 +9,4 @@ def main(volume_path):
 	GB_used = output_array[9].replace("G", "")
 	GB_available = output_array[10].replace("G", "")
 	percent_used = output_array[11].replace("%", "")
-	# print(GB_used, GB_available, percent_used)
 	return GB_used, GB_available, percent_used
-main("/dev/sda3")
